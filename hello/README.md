@@ -70,7 +70,7 @@ specified in `container.yaml` by running the following command:
         --image-project google-containers \
         --machine-type f1-micro \
         --metadata-from-file google-container-manifest=container.yaml \
-        --tag http-server
+        --tags http-server
 
 When the command completes, the external IP address of the new server is
 displayed. Navigate you browser to http://<server IP>/. It might take a few
