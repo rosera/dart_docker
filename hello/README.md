@@ -68,8 +68,8 @@ specified in `container.yaml` by running the following command:
     $ gcloud compute instances create dart-hello \
         --image container-vm-v20141016 \
         --image-project google-containers \
-        --machine-type f1-micro
-        --metadata-from-file google-container-manifest=container.yaml
+        --machine-type f1-micro \
+        --metadata-from-file google-container-manifest=container.yaml \
         --tag http-server
 
 When the command completes, the external IP address of the new server is
